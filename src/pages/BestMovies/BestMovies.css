@@ -1,0 +1,21 @@
+.best-movies {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+}
+
+.best-movies__title {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.best-movies__pagination-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 20px;
+}

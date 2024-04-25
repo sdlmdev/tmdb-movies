@@ -1,0 +1,34 @@
+.scroll-list {
+  width: 100%;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  list-style-type: none;
+  padding: 20px 0;
+}
+
+.scroll-list__next-container,
+.scroll-list__prev-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-list__prev,
+.scroll-list__next {
+  border: none;
+  background: none;
+  width: 15px;
+  height: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.scroll-list__prev {
+  background-image: url('../../assets/prev.svg');
+}
+
+.scroll-list__next {
+  background-image: url('../../assets/next.svg');
+}

@@ -1,0 +1,13 @@
+.movies-list__items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  column-gap: 30px;
+  row-gap: 30px;
+  width: 100%;
+  padding: 10px 0 30px;
+  transition: all 0.3s ease-in-out;
+}
