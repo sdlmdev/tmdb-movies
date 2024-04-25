@@ -53,7 +53,7 @@ const BestMovies: FC<BestMoviesProps> = ({
     <section className="best-movies">
       {isLoading && <Preloader />}
       {isError && <Error />}
-      {!isLoading && !isError && (
+      {!isError && (
         <>
           <div className="best-movies__title">
             <Title text="Лучшие фильмы" titleLvl="1" />
